@@ -1,0 +1,27 @@
+{
+  "name": "studion",
+  "version": "0.0.1",
+  "description": "\u0016Studion Event",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitorcode/studion.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "Javascript"
+  ],
+  "author": "Vitor Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitorcode/studion/issues"
+  },
+  "homepage": "https://github.com/vitorcode/studion#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
