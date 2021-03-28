@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&family=Roboto&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
 * {
     box-sizing: border-box;
 }
@@ -139,6 +142,7 @@ ul {
     font-weight: 700;
     text-transform: uppercase;
     transform: 0.2s all ease;
+    cursor: pointer;
 }
 
 .btn:hover,
@@ -260,4 +264,95 @@ ul {
 
 .quote__copy h2 span {
     display: block;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+.footer__container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    align-items: center;
+    border-bottom: 0.1rem solid #fff3;
+    padding: 5rem 0;
+}
+
+.logo-studion__subtitle {
+    display: block;
+}
+
+.footer .logo-studion {
+    justify-self: start;
+    margin: 0;
+}
+
+.footer__form {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 9ch auto;
+    gap: 1.375rem;
+}
+
+.footer__form label {
+    font-size: .875rem;
+    font-weight: 300;
+    line-height: 1rem;
+}
+
+.footer__form__email {
+    display: grid;
+    grid-template-columns: auto 3.375rem;
+    width: 100%;
+}
+
+.footer__form input {
+    background-color: var(--color-primary);
+    border: unset;
+    padding: 1rem;
+    font-size: .875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000;    
+    width: 100%;
+}
+
+.footer__form input::placeholder {
+    color: #000;
+}
+
+.footer__form button {
+    cursor: pointer;
+    transition: 0.2s all ease;
+}
+
+.footer__form button:hover {
+    background-color: var(--color-copy);
+    color: #fff;
+}
+
+.footer__social {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 0.5rem;
+    justify-self: end;
+}
+
+.footer__social a,
+.footer__social a:active,
+.footer__social a:visited {
+    color: #fff;
+    margin-left: 0.2rem;
+}
+
+.footer__social .fa-twitter {
+    color: #000;
+}
+
+.footer p {
+    text-align: center;
+    font-weight: 300;
+    margin: 2.5rem 0;
 }
